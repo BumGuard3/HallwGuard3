@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/Library/
-/Temp/
-/Obj/
-/Build/
-/Builds/
-/Logs/
-/UserSettings/
+HallwGuard3/Library/
+HallwGuard3/Temp/
+HallwGuard3/Obj/
+HallwGuard3/Build/
+HallwGuard3/Builds/
+HallwGuard3/Logs/
+HallwGuard3/UserSettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
