@@ -9,8 +9,8 @@ public class EnemyController : MonoBehaviour
 
     public Vector3 walkPoint;
     bool walkPointSet;
-    public float walkPointRange;
-    public float sightRange;
+    public float walkPointRange = 25f;
+    public float sightRange = 12f;
     public bool inSightRange;
     
     public float normalSpeed = 3.5f;
@@ -46,11 +46,11 @@ public class EnemyController : MonoBehaviour
         {
             agent.SetDestination(lastKnownPosition);
 
-            if (Vector3.Distance(transform.position, lastKnownPosition) < .2f)
+            if (Vector3.Distance(transform.position, lastKnownPosition) < 1f)
             {
                 isChasing = false;
                 agent.speed = normalSpeed;
-                Patrolling();
+                PatrollingFromLastKnownPosition();
             }
         }
     }
@@ -91,6 +91,13 @@ public class EnemyController : MonoBehaviour
 
         if (distanceToWalkPoint.magnitude < 1f)
             walkPointSet = false;
+    }
+
+    private void PatrollingFromLastKnownPosition()
+    {
+        walkPoint = lastKnownPosition;
+        walkPointSet = true;
+        agent.SetDestination(walkPoint);
     }
 
     private void Chase()
