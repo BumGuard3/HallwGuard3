@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
     public CharacterController controller;
 
-    public float speed = 12f;
+    public float speed = 9f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

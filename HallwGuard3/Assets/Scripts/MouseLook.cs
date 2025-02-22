@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class MouseLook : MonoBehaviour
 {
 
-    public static float mouseSensitivity = 100f;
+    public  float mouseSensitivity = 100f;
 
     public Transform playerBody;
 
@@ -30,4 +30,6 @@ public class MouseLook : MonoBehaviour
         playerBody.Rotate(Vector3.up * mouseX);
 
     }
+
+
 }
