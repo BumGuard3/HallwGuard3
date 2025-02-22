@@ -5282,23 +5282,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b334677f946b5424690a7623af6ab480, type: 3}
   m_PrefabInstance: {fileID: 1942779025}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1994960804 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6586073440241971246, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}
-  m_PrefabInstance: {fileID: 8749798151155186976}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1994960807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994960804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fae84ed1f87a54d8e529b52dc77dee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2024640969
 GameObject:
   m_ObjectHideFlags: 0
@@ -6154,17 +6137,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 8883452933401304369, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}
-      propertyPath: mouseSensitivity
-      value: 500
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6586073440241971246, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1994960807}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

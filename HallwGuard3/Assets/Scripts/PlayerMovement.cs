@@ -1,28 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
 
     public CharacterController controller;
 
-    public float speed = 9f;
+    public float speed = 12f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    Vector2 move;
+
+    PlayerControl controls;
+
+    void Awake()
     {
-        
+        controls = new PlayerControl();
+
+        controls.Player.Move.performed += ctx => move = ctx.ReadValue<Vector2>();
+        controls.Player.Move.canceled += ctx => move = Vector2.zero;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
-
-        Vector3 move = transform.right * x + transform.forward * z;
-
-        controller.Move(move * speed * Time.deltaTime);
+        Vector3 m = transform.right * move.x + transform.forward * move.y;
+        controller.Move(m * Time.deltaTime * speed);
     }
+
+    void OnEnable()
+    {
+        controls.Player.Enable();
+    }
+
+    void OnDisable()
+    {
+        controls.Player.Disable();
+    }
+
 }
