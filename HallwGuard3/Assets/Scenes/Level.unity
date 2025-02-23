@@ -5869,10 +5869,7 @@ Light:
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
 --- !u!1 &1814825427
 GameObject:
   m_ObjectHideFlags: 0
@@ -6213,9 +6210,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1 &1908449655
 GameObject:
@@ -6262,11 +6256,7 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 --- !u!1 &1917715253
-=======
---- !u!1 &1918674898
->>>>>>> Stashed changes
 =======
 --- !u!1 &1918674898
 >>>>>>> Stashed changes
@@ -6278,23 +6268,17 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
   - component: {fileID: 1917715255}
   - component: {fileID: 1917715254}
   m_Layer: 0
   m_Name: MacGuffin
 =======
-=======
->>>>>>> Stashed changes
   - component: {fileID: 1918674899}
   - component: {fileID: 1918674902}
   - component: {fileID: 1918674901}
   - component: {fileID: 1918674900}
   m_Layer: 5
   m_Name: Button
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6302,13 +6286,8 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 --- !u!136 &1917715254
 CapsuleCollider:
-=======
---- !u!224 &1918674899
-RectTransform:
->>>>>>> Stashed changes
 =======
 --- !u!224 &1918674899
 RectTransform:
@@ -6317,7 +6296,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 1917715253}
   m_Material: {fileID: 0}
@@ -6353,8 +6331,6 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
-=======
->>>>>>> Stashed changes
   m_GameObject: {fileID: 1918674898}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -6451,9 +6427,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918674898}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1 &1919034383
 GameObject:
