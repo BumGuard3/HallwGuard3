@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1618060793662613511}
   - component: {fileID: 3333228183230839680}
   - component: {fileID: 1080594921295668863}
-  - component: {fileID: 5439809628742168022}
   - component: {fileID: 2728691314692396665}
+  - component: {fileID: 5179270681521028557}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -103,32 +103,6 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &5439809628742168022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2787784601992335409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd72de6be6df01a48a9065bf881844a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 1080594921295668863}
-  player: {fileID: 3098860370891453739, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}
-  isGround:
-    serializedVersion: 2
-    m_Bits: 128
-  isPlayer:
-    serializedVersion: 2
-    m_Bits: 64
-  walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 25
-  sightRange: 12
-  inSightRange: 0
-  normalSpeed: 3.5
-  increasedSpeed: 10
 --- !u!136 &2728691314692396665
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -152,6 +126,32 @@ CapsuleCollider:
   m_Height: 1.6543863
   m_Direction: 1
   m_Center: {x: 0, y: 0.32719073, z: 0}
+--- !u!114 &5179270681521028557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2787784601992335409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2bc99a8ab3187439f23c77e57ffb00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 1080594921295668863}
+  player: {fileID: 3098860370891453739, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}
+  isGround:
+    serializedVersion: 2
+    m_Bits: 0
+  isPlayer:
+    serializedVersion: 2
+    m_Bits: 0
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 25
+  sightRange: 12
+  inSightRange: 0
+  normalSpeed: 3.5
+  increasedSpeed: 10
 --- !u!1001 &4665269083744240501
 PrefabInstance:
   m_ObjectHideFlags: 0

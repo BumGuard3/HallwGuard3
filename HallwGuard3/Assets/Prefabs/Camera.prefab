@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3595209055353301862}
-  - component: {fileID: 8744932025913054451}
+  - component: {fileID: 4447009438858347515}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   - {fileID: 3889569315011287733}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8744932025913054451
+--- !u!114 &4447009438858347515
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,13 +42,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4414990566065021618}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f754f5f41330d2c4c907ff65293dc1cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 7de71dc14c3d5d347ae28cc3e252e683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   detectionRange: 10
   fieldOfViewAngle: 90
-  player: {fileID: 0}
-  enemyController: {fileID: 0}
+  player: {fileID: 3098860370891453739, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}
+  enemyController: {fileID: 5179270681521028557, guid: c429abfcf4c8e8c49906c82a95f258eb, type: 3}
 --- !u!1001 &3634475071944047966
 PrefabInstance:
   m_ObjectHideFlags: 0

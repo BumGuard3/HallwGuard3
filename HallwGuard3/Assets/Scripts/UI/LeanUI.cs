@@ -17,7 +17,7 @@ public class LeanUI : MonoBehaviour
 
     IEnumerator DisableUI()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(7);
         LeanElement.gameObject.SetActive(false);
         StopAllCoroutines();
     }
