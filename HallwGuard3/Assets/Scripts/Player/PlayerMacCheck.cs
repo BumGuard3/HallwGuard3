@@ -2,14 +2,11 @@ using UnityEngine;
 
 public class PlayerMacCheck : MonoBehaviour
 {
-    public GameManager gameManager;
-
-    //NOT DONE WITH THIS CODE YET
-
+    public bool mac;
 
     private void Awake()
     {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        mac = false;
     }
 
     private void OnTriggerEnter(Collider hit)
@@ -17,11 +14,8 @@ public class PlayerMacCheck : MonoBehaviour
         if (hit.tag == "Mac")
         {
             Destroy(hit.gameObject);
-
-
+            mac = true;
+            GameObject.Find("DoorManager").GetComponent<MacDoor>().UpdateMac();
         }
     }
-
-
-
 }
