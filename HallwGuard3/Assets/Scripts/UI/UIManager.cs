@@ -2,12 +2,17 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class UIManager : MonoBehaviour
 {
+    [Header("Menu Objects")]
     [SerializeField] private GameObject _mainMenu;
 
     private bool isPaused;
+
+    [Header("First Selected Options")]
+    [SerializeField] private GameObject _mainMenuFirst;
 
     private void Start()
     {
@@ -57,11 +62,15 @@ public class UIManager : MonoBehaviour
     private void OpenPauseMenu()
     {
         _mainMenu.SetActive(true);
+
+        EventSystem.current.SetSelectedGameObject(_mainMenuFirst);
     }
 
     private void ClosePauseMenu()
     {
         _mainMenu.SetActive(false);
+
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     #endregion

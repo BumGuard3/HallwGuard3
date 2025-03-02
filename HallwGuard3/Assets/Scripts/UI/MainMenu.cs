@@ -2,48 +2,50 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using System.Collections;
+using System.Collections.Generic;
 
 public class MainMenu : MonoBehaviour
 {
-    public Button playButton;
-    public Button creditsButton;
-    public Button mainMenuButton;
+    [Header("Menu Objects")]
+    [SerializeField] private GameObject _mainMenu;
+    [SerializeField] private GameObject _creditsMenu;
 
-    public GameObject Credits;
-    public GameObject mainMenu;
+    [Header("First Selected Options")]
+    [SerializeField] private GameObject _mainMenuFirst;
+    [SerializeField] private GameObject _creditsMenuFirst;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
-        playButton.onClick.AddListener(play);
-        creditsButton.onClick.AddListener(credits);
-        mainMenuButton.onClick.AddListener(main);
+        _mainMenu.SetActive(true);
+        _creditsMenu.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void MainMenuButton()
     {
+        _mainMenu.SetActive(true);
+        _creditsMenu.SetActive(false);
 
+        EventSystem.current.SetSelectedGameObject(_mainMenuFirst);
     }
 
-    void play()
+    public void CreditsButton()
+    {
+        _creditsMenu.SetActive(true);
+        _mainMenu.SetActive(false);
+
+        EventSystem.current.SetSelectedGameObject(_creditsMenuFirst);
+    }
+
+    public void PlayButton()
     {
         SceneManager.LoadScene("Level");
     }
 
-    void credits()
+    public void QuitButton()
     {
-        mainMenu.gameObject.SetActive(false);
-        Credits.gameObject.SetActive(true);
-        mainMenuButton.gameObject.SetActive(true);
-    }
-
-    void main()
-    {
-        mainMenu.gameObject.SetActive(true);
-        Credits.gameObject.SetActive(false);
-        mainMenuButton.gameObject.SetActive(false);
+        Application.Quit();
     }
 
 }
