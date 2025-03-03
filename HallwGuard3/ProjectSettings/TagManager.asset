@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Mac
+  - DoorRandom
+  - DoorAlwaysOpen
   layers:
   - Default
   - TransparentFX
@@ -15,9 +17,9 @@ TagManager:
   - Player
   - Ground
   - Wall
-  - 
-  - 
-  - 
+  - Cells
+  - Enemy
+  - MacGuffin
   - 
   - 
   - 
