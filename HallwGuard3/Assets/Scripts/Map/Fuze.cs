@@ -15,6 +15,12 @@ public class Fuze : MonoBehaviour
             fuzeCollect.AddListener(door.GetComponent<DoorRandom>().DoorRandomOpen);
         }
 
+        GameObject[] lights = GameObject.FindGameObjectsWithTag("CeilingLights");
+        foreach (GameObject lightObj in lights)
+        {
+            fuzeCollect.AddListener(lightObj.GetComponent<Lights>().ShutOff);
+        }
+
         fuzeCollect.AddListener(GameObject.FindGameObjectWithTag("DoorAlwaysOpen").GetComponent<DoorOpen>().DoorAlwaysOpen);
     }
 
@@ -25,10 +31,5 @@ public class Fuze : MonoBehaviour
             fuzeCollect.Invoke();
             Destroy(gameObject);
         }
-    }
-
-    public void TestMethod()
-    {
-        print("Fuze Collected");
     }
 }

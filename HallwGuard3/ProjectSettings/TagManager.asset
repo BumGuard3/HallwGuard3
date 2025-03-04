@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Mac
   - DoorRandom
   - DoorAlwaysOpen
+  - Enemy
+  - DoorInteractable
+  - CeilingLights
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Cells
   - Enemy
   - MacGuffin
-  - 
+  - Enviroment
   - 
   - 
   - 
