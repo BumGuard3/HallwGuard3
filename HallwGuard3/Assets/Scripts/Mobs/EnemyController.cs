@@ -44,22 +44,16 @@ public class EnemyController : MonoBehaviour
 
         if (isChasing)
         {
-            if (inSightRange)
-            {
-                Chase();
-            }
+            
+            agent.SetDestination(lastKnownPosition);
 
-            if (!inSightRange)
+            if (Vector3.Distance(transform.position, lastKnownPosition) < 1f)
             {
-                agent.SetDestination(lastKnownPosition);
-
-                if (Vector3.Distance(transform.position, lastKnownPosition) < 1f)
-                {
-                    isChasing = false;
-                    agent.speed = normalSpeed;
-                    PatrollingFromLastKnownPosition();
-                }
+                isChasing = false;
+                agent.speed = normalSpeed;
+                PatrollingFromLastKnownPosition();
             }
+            
         }
     }
 
