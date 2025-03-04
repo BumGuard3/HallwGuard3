@@ -10,13 +10,13 @@ public class Lean : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.Q) && !Physics.Raycast(transform.position, -transform.right, out hit, 1f, layers))
+        if((Input.GetKey(KeyCode.Q) || Input.GetButton("Fire2")) && !Physics.Raycast(transform.position, -transform.right, out hit, 1f, layers))
         {
             cameraAnim.ResetTrigger("Idle");
             cameraAnim.ResetTrigger("Right");
             cameraAnim.SetTrigger("Left");
         }
-        else if(Input.GetKey(KeyCode.E) && !Physics.Raycast(transform.position, transform.right, out hit, 1f, layers))
+        else if((Input.GetKey(KeyCode.E) || Input.GetButton("Fire1")) && !Physics.Raycast(transform.position, transform.right, out hit, 1f, layers))
         {
             cameraAnim.ResetTrigger("Idle");
             cameraAnim.ResetTrigger("Left");
