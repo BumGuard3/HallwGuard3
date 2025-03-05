@@ -71,10 +71,22 @@ public class EnemyController : MonoBehaviour
 
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 
-        if (Physics.Raycast(walkPoint, -transform.up, 2f, isGround))
+        if (Physics.Raycast(walkPoint, -transform.up, 2f, isGround) && IsWalkPointReachable(walkPoint))
         {
             walkPointSet = true;
         }
+        else
+        {
+            walkPointSet = false;
+        }
+    }
+
+    private bool IsWalkPointReachable(Vector3 targetPoint)
+    {
+        NavMeshPath path = new NavMeshPath();
+        agent.CalculatePath(targetPoint, path);
+        
+        return path.status == NavMeshPathStatus.PathComplete;
     }
 
     private void Patrolling()
