@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - DoorInteractable
   - CeilingLights
+  - DoorAlwaysClose
   layers:
   - Default
   - TransparentFX
