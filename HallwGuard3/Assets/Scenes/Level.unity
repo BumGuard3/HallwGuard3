@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 2999364}
   - component: {fileID: 2999363}
   - component: {fileID: 2999362}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,6 +445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -484,6 +488,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -700,31 +712,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30234568}
   m_CullTransparentMesh: 1
---- !u!1 &37962193 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4957529173383475252, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
-  m_PrefabInstance: {fileID: 200324952}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &37962195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 37962193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_OverrideArea: 1
-  m_Area: 1
-  m_OverrideGenerateLinks: 0
-  m_GenerateLinks: 0
-  m_IgnoreFromBuild: 0
-  m_ApplyToChildren: 1
-  m_AffectedAgents: ffffffff
 --- !u!1 &43520338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 488642394444966466, guid: 3d0b970b399076c4d8305ea6ab8860f9, type: 3}
@@ -742,7 +729,7 @@ GameObject:
   - component: {fileID: 45383193}
   - component: {fileID: 45383192}
   - component: {fileID: 45383191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -953,7 +940,7 @@ GameObject:
   - component: {fileID: 62232428}
   - component: {fileID: 62232427}
   - component: {fileID: 62232426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1061,7 +1048,7 @@ GameObject:
   - component: {fileID: 62799324}
   - component: {fileID: 62799323}
   - component: {fileID: 62799322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1258,6 +1245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -1297,6 +1288,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1382,11 +1381,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 499284558365461627, guid: 34b96f4583324454794108535f581aff, type: 3}
       propertyPath: m_Height
-      value: 0.59
+      value: 3.8498764
       objectReference: {fileID: 0}
     - target: {fileID: 499284558365461627, guid: 34b96f4583324454794108535f581aff, type: 3}
       propertyPath: m_Radius
-      value: 0.28
+      value: 1.6315551
+      objectReference: {fileID: 0}
+    - target: {fileID: 499284558365461627, guid: 34b96f4583324454794108535f581aff, type: 3}
+      propertyPath: m_Center.x
+      value: -0.56554204
+      objectReference: {fileID: 0}
+    - target: {fileID: 499284558365461627, guid: 34b96f4583324454794108535f581aff, type: 3}
+      propertyPath: m_Center.z
+      value: -0.7859919
       objectReference: {fileID: 0}
     - target: {fileID: 1322383222184271385, guid: 34b96f4583324454794108535f581aff, type: 3}
       propertyPath: m_Name
@@ -1394,15 +1401,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5417871427788454639, guid: 34b96f4583324454794108535f581aff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 56.187004
+      value: 58.59
       objectReference: {fileID: 0}
     - target: {fileID: 5417871427788454639, guid: 34b96f4583324454794108535f581aff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.61899996
+      value: 2.275
       objectReference: {fileID: 0}
     - target: {fileID: 5417871427788454639, guid: 34b96f4583324454794108535f581aff, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -26.726105
+      value: -25.799
       objectReference: {fileID: 0}
     - target: {fileID: 5417871427788454639, guid: 34b96f4583324454794108535f581aff, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1455,6 +1462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -1494,6 +1505,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1626,7 +1645,7 @@ GameObject:
   - component: {fileID: 101970319}
   - component: {fileID: 101970318}
   - component: {fileID: 101970317}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1843,6 +1862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -1882,6 +1905,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2203,7 +2234,7 @@ GameObject:
   - component: {fileID: 164048669}
   - component: {fileID: 164048668}
   - component: {fileID: 164048667}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2867,7 +2898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 634922743141863858, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
       propertyPath: m_Name
-      value: Updated_Cell
+      value: Updated_Cell (100)
       objectReference: {fileID: 0}
     - target: {fileID: 647843534100274620, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
       propertyPath: m_Layer
@@ -3828,16 +3859,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7736501223100650170, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1299030086}
-    - targetCorrespondingSourceObject: {fileID: 4957529173383475252, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 37962195}
-    - targetCorrespondingSourceObject: {fileID: 2375813061746216208, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1079282993}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
 --- !u!4 &200324953 stripped
 Transform:
@@ -3964,6 +3986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -4003,6 +4029,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4175,7 +4209,7 @@ GameObject:
   - component: {fileID: 229532544}
   - component: {fileID: 229532543}
   - component: {fileID: 229532542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4450,7 +4484,7 @@ GameObject:
   - component: {fileID: 249687840}
   - component: {fileID: 249687839}
   - component: {fileID: 249687838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4558,6 +4592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10
@@ -4598,6 +4636,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4620,7 +4666,7 @@ GameObject:
   - component: {fileID: 271285184}
   - component: {fileID: 271285183}
   - component: {fileID: 271285182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4797,7 +4843,7 @@ GameObject:
   - component: {fileID: 279825710}
   - component: {fileID: 279825709}
   - component: {fileID: 279825708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5142,6 +5188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -5181,6 +5231,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5436,7 +5494,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 465694728856913840, guid: 1a5ef8d64081cbd4db49d71ab9dd0e52, type: 3}
       propertyPath: m_Name
-      value: Cells (15)
+      value: Cells
       objectReference: {fileID: 0}
     - target: {fileID: 855707157496613477, guid: 1a5ef8d64081cbd4db49d71ab9dd0e52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5569,7 +5627,7 @@ GameObject:
   - component: {fileID: 320279989}
   - component: {fileID: 320279988}
   - component: {fileID: 320279987}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5914,7 +5972,7 @@ GameObject:
   - component: {fileID: 350038153}
   - component: {fileID: 350038152}
   - component: {fileID: 350038151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6127,19 +6185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuzeCollect:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 365994993}
-        m_TargetAssemblyTypeName: Fuze, Assembly-CSharp
-        m_MethodName: TestMethod
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &367893997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6357,7 +6403,7 @@ GameObject:
   - component: {fileID: 389608725}
   - component: {fileID: 389608724}
   - component: {fileID: 389608723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6868,6 +6914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -6907,6 +6957,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7066,6 +7124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -7105,6 +7167,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7194,7 +7264,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 437418629}
-  m_Layer: 0
+  - component: {fileID: 437418630}
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7218,6 +7289,26 @@ Transform:
   - {fileID: 1938125240}
   m_Father: {fileID: 724395934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &437418630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437418628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_OverrideArea: 1
+  m_Area: 1
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &439373818
 GameObject:
   m_ObjectHideFlags: 0
@@ -7230,7 +7321,7 @@ GameObject:
   - component: {fileID: 439373822}
   - component: {fileID: 439373821}
   - component: {fileID: 439373820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7246,8 +7337,8 @@ Transform:
   m_GameObject: {fileID: 439373818}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.212762, y: -4.445915, z: 52.236935}
-  m_LocalScale: {x: 5, y: 9, z: 1}
+  m_LocalPosition: {x: 5.212762, y: -4.445915, z: 56.24}
+  m_LocalScale: {x: 5, y: 9, z: 9}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1938125240}
@@ -7338,7 +7429,7 @@ GameObject:
   - component: {fileID: 444635636}
   - component: {fileID: 444635635}
   - component: {fileID: 444635634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7451,6 +7542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -7490,6 +7585,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7658,6 +7761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -7698,6 +7805,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7720,7 +7835,7 @@ GameObject:
   - component: {fileID: 485196569}
   - component: {fileID: 485196568}
   - component: {fileID: 485196567}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8065,6 +8180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -8105,6 +8224,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8126,6 +8253,10 @@ PrefabInstance:
     - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_Name
       value: BarDoor (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8166,6 +8297,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8647,7 +8786,7 @@ GameObject:
   - component: {fileID: 526998178}
   - component: {fileID: 526998177}
   - component: {fileID: 526998176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8880,6 +9019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -8919,6 +9062,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9511,7 +9662,7 @@ GameObject:
   - component: {fileID: 632069382}
   - component: {fileID: 632069381}
   - component: {fileID: 632069380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10383,7 +10534,7 @@ GameObject:
   - component: {fileID: 646119493}
   - component: {fileID: 646119492}
   - component: {fileID: 646119491}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10491,7 +10642,7 @@ GameObject:
   - component: {fileID: 647990085}
   - component: {fileID: 647990084}
   - component: {fileID: 647990083}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10697,7 +10848,7 @@ GameObject:
   - component: {fileID: 666640272}
   - component: {fileID: 666640271}
   - component: {fileID: 666640270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11274,6 +11425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
@@ -11314,6 +11469,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11336,7 +11499,7 @@ GameObject:
   - component: {fileID: 722378344}
   - component: {fileID: 722378343}
   - component: {fileID: 722378342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11444,6 +11607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -11483,6 +11650,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11852,6 +12027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -11891,6 +12070,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12997,6 +13184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -13036,6 +13227,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13388,7 +13587,7 @@ GameObject:
   - component: {fileID: 813483009}
   - component: {fileID: 813483008}
   - component: {fileID: 813483007}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13715,7 +13914,7 @@ GameObject:
   - component: {fileID: 835198959}
   - component: {fileID: 835198958}
   - component: {fileID: 835198957}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13823,7 +14022,7 @@ GameObject:
   - component: {fileID: 839433739}
   - component: {fileID: 839433738}
   - component: {fileID: 839433737}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14101,7 +14300,7 @@ GameObject:
   - component: {fileID: 861145902}
   - component: {fileID: 861145901}
   - component: {fileID: 861145900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14242,7 +14441,7 @@ GameObject:
   - component: {fileID: 863742809}
   - component: {fileID: 863742808}
   - component: {fileID: 863742807}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14594,7 +14793,7 @@ GameObject:
   - component: {fileID: 866277004}
   - component: {fileID: 866277003}
   - component: {fileID: 866277002}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14908,7 +15107,7 @@ GameObject:
   - component: {fileID: 889662682}
   - component: {fileID: 889662681}
   - component: {fileID: 889662680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15016,6 +15215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -15055,6 +15258,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15770,6 +15981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.11
@@ -15813,6 +16028,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16191,6 +16414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -16230,6 +16457,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16595,6 +16830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -16634,6 +16873,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16798,6 +17045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -16838,6 +17089,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16859,6 +17118,10 @@ PrefabInstance:
     - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_Name
       value: BarDoor (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16899,6 +17162,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17022,7 +17293,7 @@ GameObject:
   - component: {fileID: 1057634111}
   - component: {fileID: 1057634110}
   - component: {fileID: 1057634109}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17130,7 +17401,7 @@ GameObject:
   - component: {fileID: 1061914774}
   - component: {fileID: 1061914773}
   - component: {fileID: 1061914772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17238,7 +17509,7 @@ GameObject:
   - component: {fileID: 1065459750}
   - component: {fileID: 1065459749}
   - component: {fileID: 1065459748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17535,31 +17806,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 47891225}
   m_SourcePrefab: {fileID: 100100000, guid: c429abfcf4c8e8c49906c82a95f258eb, type: 3}
---- !u!1 &1079282991 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2375813061746216208, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
-  m_PrefabInstance: {fileID: 200324952}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1079282993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079282991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_OverrideArea: 1
-  m_Area: 1
-  m_OverrideGenerateLinks: 0
-  m_GenerateLinks: 0
-  m_IgnoreFromBuild: 0
-  m_ApplyToChildren: 1
-  m_AffectedAgents: ffffffff
 --- !u!1 &1085035790
 GameObject:
   m_ObjectHideFlags: 0
@@ -17680,7 +17926,7 @@ GameObject:
   - component: {fileID: 1087048365}
   - component: {fileID: 1087048364}
   - component: {fileID: 1087048363}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17776,114 +18022,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087048361}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1088917456
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1088917457}
-  - component: {fileID: 1088917460}
-  - component: {fileID: 1088917459}
-  - component: {fileID: 1088917458}
-  m_Layer: 13
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1088917457
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088917456}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.073, y: 0.359, z: -0}
-  m_LocalScale: {x: 0.54, y: -0.43, z: 0.1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2057418088}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1088917458
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088917456}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1088917459
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088917456}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1088917460
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088917456}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1089601448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17958,7 +18096,7 @@ GameObject:
   - component: {fileID: 1091880542}
   - component: {fileID: 1091880541}
   - component: {fileID: 1091880540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18252,7 +18390,7 @@ GameObject:
   - component: {fileID: 1108007655}
   - component: {fileID: 1108007654}
   - component: {fileID: 1108007653}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18360,7 +18498,7 @@ GameObject:
   - component: {fileID: 1114493464}
   - component: {fileID: 1114493463}
   - component: {fileID: 1114493462}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18564,7 +18702,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6140085584233931825, guid: 1a5ef8d64081cbd4db49d71ab9dd0e52, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a5ef8d64081cbd4db49d71ab9dd0e52, type: 3}
@@ -18978,7 +19117,7 @@ GameObject:
   - component: {fileID: 1184040589}
   - component: {fileID: 1184040588}
   - component: {fileID: 1184040587}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19376,7 +19515,7 @@ GameObject:
   - component: {fileID: 1216935579}
   - component: {fileID: 1216935578}
   - component: {fileID: 1216935577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19571,10 +19710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1088917457}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       insertIndex: -1
@@ -20588,6 +20724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -20627,6 +20767,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21480,7 +21628,7 @@ GameObject:
   - component: {fileID: 1292377971}
   - component: {fileID: 1292377970}
   - component: {fileID: 1292377969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21576,31 +21724,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292377967}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1299030084 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7736501223100650170, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
-  m_PrefabInstance: {fileID: 200324952}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1299030086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299030084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_OverrideArea: 1
-  m_Area: 1
-  m_OverrideGenerateLinks: 0
-  m_GenerateLinks: 0
-  m_IgnoreFromBuild: 0
-  m_ApplyToChildren: 1
-  m_AffectedAgents: ffffffff
 --- !u!1001 &1310241147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21916,7 +22039,7 @@ GameObject:
   - component: {fileID: 1319345769}
   - component: {fileID: 1319345768}
   - component: {fileID: 1319345767}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22041,7 +22164,7 @@ GameObject:
   - component: {fileID: 1323446894}
   - component: {fileID: 1323446893}
   - component: {fileID: 1323446892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22388,7 +22511,7 @@ GameObject:
   - component: {fileID: 1340964829}
   - component: {fileID: 1340964828}
   - component: {fileID: 1340964827}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22869,6 +22992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -22909,6 +23036,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22931,7 +23066,7 @@ GameObject:
   - component: {fileID: 1387133362}
   - component: {fileID: 1387133361}
   - component: {fileID: 1387133360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23400,7 +23535,7 @@ GameObject:
   - component: {fileID: 1416364642}
   - component: {fileID: 1416364641}
   - component: {fileID: 1416364640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23594,7 +23729,7 @@ GameObject:
   - component: {fileID: 1428072034}
   - component: {fileID: 1428072033}
   - component: {fileID: 1428072032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23774,7 +23909,7 @@ GameObject:
   - component: {fileID: 1439270134}
   - component: {fileID: 1439270133}
   - component: {fileID: 1439270132}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23882,7 +24017,7 @@ GameObject:
   - component: {fileID: 1441828258}
   - component: {fileID: 1441828257}
   - component: {fileID: 1441828256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24196,6 +24331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -24235,6 +24374,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24469,6 +24616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -24508,6 +24659,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24824,7 +24983,7 @@ GameObject:
   - component: {fileID: 1505850196}
   - component: {fileID: 1505850195}
   - component: {fileID: 1505850194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25186,6 +25345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7
@@ -25226,6 +25389,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25248,7 +25419,7 @@ GameObject:
   - component: {fileID: 1528772292}
   - component: {fileID: 1528772291}
   - component: {fileID: 1528772290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25420,6 +25591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -25459,6 +25634,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25601,7 +25784,7 @@ GameObject:
   - component: {fileID: 1539622627}
   - component: {fileID: 1539622626}
   - component: {fileID: 1539622625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25714,6 +25897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -25754,6 +25941,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25775,6 +25970,10 @@ PrefabInstance:
     - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_Name
       value: BarDoor (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25815,6 +26014,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25910,7 +26117,7 @@ GameObject:
   - component: {fileID: 1562868070}
   - component: {fileID: 1562868069}
   - component: {fileID: 1562868068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26508,6 +26715,10 @@ PrefabInstance:
       value: BarDoor (3)
       objectReference: {fileID: 0}
     - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_TagString
       value: DoorAlwaysOpen
       objectReference: {fileID: 0}
@@ -26551,13 +26762,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1615376462}
+      addedObject: {fileID: 1615376464}
   m_SourcePrefab: {fileID: 100100000, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
 --- !u!4 &1615376458 stripped
 Transform:
@@ -26569,7 +26788,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
   m_PrefabInstance: {fileID: 1615376457}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1615376462
+--- !u!114 &1615376464
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26633,7 +26852,7 @@ GameObject:
   - component: {fileID: 1622982627}
   - component: {fileID: 1622982626}
   - component: {fileID: 1622982625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26741,7 +26960,7 @@ GameObject:
   - component: {fileID: 1623601506}
   - component: {fileID: 1623601505}
   - component: {fileID: 1623601504}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26849,7 +27068,7 @@ GameObject:
   - component: {fileID: 1628055891}
   - component: {fileID: 1628055890}
   - component: {fileID: 1628055889}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27391,7 +27610,7 @@ GameObject:
   - component: {fileID: 1665450875}
   - component: {fileID: 1665450874}
   - component: {fileID: 1665450873}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27548,7 +27767,7 @@ GameObject:
   - component: {fileID: 1678343280}
   - component: {fileID: 1678343279}
   - component: {fileID: 1678343278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27695,6 +27914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -27734,6 +27957,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28303,7 +28534,7 @@ GameObject:
   - component: {fileID: 1715212509}
   - component: {fileID: 1715212508}
   - component: {fileID: 1715212507}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28547,7 +28778,7 @@ GameObject:
   - component: {fileID: 1723452120}
   - component: {fileID: 1723452119}
   - component: {fileID: 1723452118}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28737,7 +28968,7 @@ GameObject:
   - component: {fileID: 1726444073}
   - component: {fileID: 1726444072}
   - component: {fileID: 1726444071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28845,7 +29076,7 @@ GameObject:
   - component: {fileID: 1737237571}
   - component: {fileID: 1737237570}
   - component: {fileID: 1737237569}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29061,7 +29292,7 @@ GameObject:
   - component: {fileID: 1751525655}
   - component: {fileID: 1751525654}
   - component: {fileID: 1751525653}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29361,7 +29592,7 @@ GameObject:
   - component: {fileID: 1767698438}
   - component: {fileID: 1767698437}
   - component: {fileID: 1767698436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29469,7 +29700,7 @@ GameObject:
   - component: {fileID: 1775455970}
   - component: {fileID: 1775455969}
   - component: {fileID: 1775455968}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29577,7 +29808,7 @@ GameObject:
   - component: {fileID: 1776643232}
   - component: {fileID: 1776643231}
   - component: {fileID: 1776643230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29771,7 +30002,7 @@ GameObject:
   - component: {fileID: 1785900234}
   - component: {fileID: 1785900233}
   - component: {fileID: 1785900232}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29913,7 +30144,7 @@ GameObject:
   - component: {fileID: 1790498994}
   - component: {fileID: 1790498993}
   - component: {fileID: 1790498992}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30026,6 +30257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8
@@ -30066,6 +30301,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30087,6 +30330,10 @@ PrefabInstance:
     - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_Name
       value: BarDoor (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30127,6 +30374,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30235,7 +30490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1803884646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall_Bars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30313,6 +30568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -30352,6 +30611,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30604,6 +30871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -30644,6 +30915,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30666,7 +30945,7 @@ GameObject:
   - component: {fileID: 1825945035}
   - component: {fileID: 1825945034}
   - component: {fileID: 1825945033}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30921,6 +31200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -30961,6 +31244,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30981,7 +31272,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 634922743141863858, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
       propertyPath: m_Name
-      value: Updated_Cell (4)
+      value: Updated_Cell
       objectReference: {fileID: 0}
     - target: {fileID: 6754660027888214118, guid: 3687b27b0a8c4b243a8de08845348e20, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31143,6 +31434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -31183,6 +31478,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31205,7 +31508,7 @@ GameObject:
   - component: {fileID: 1865506647}
   - component: {fileID: 1865506646}
   - component: {fileID: 1865506645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31657,7 +31960,7 @@ GameObject:
   - component: {fileID: 1883487244}
   - component: {fileID: 1883487243}
   - component: {fileID: 1883487242}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31673,8 +31976,8 @@ Transform:
   m_GameObject: {fileID: 1883487240}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.787238, y: -4.445915, z: 52.236935}
-  m_LocalScale: {x: 5, y: 9, z: 1}
+  m_LocalPosition: {x: -8.787238, y: -4.445915, z: 56.24}
+  m_LocalScale: {x: 5, y: 9, z: 9}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1938125240}
@@ -31827,7 +32130,7 @@ GameObject:
   - component: {fileID: 1893072877}
   - component: {fileID: 1893072876}
   - component: {fileID: 1893072875}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32021,7 +32324,7 @@ GameObject:
   - component: {fileID: 1905384907}
   - component: {fileID: 1905384906}
   - component: {fileID: 1905384905}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32420,7 +32723,7 @@ GameObject:
   - component: {fileID: 1927451834}
   - component: {fileID: 1927451833}
   - component: {fileID: 1927451832}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32636,7 +32939,7 @@ GameObject:
   - component: {fileID: 1934124296}
   - component: {fileID: 1934124295}
   - component: {fileID: 1934124294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32741,7 +33044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1938125240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33103,6 +33406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -33142,6 +33449,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33697,7 +34012,7 @@ GameObject:
   - component: {fileID: 2020119348}
   - component: {fileID: 2020119347}
   - component: {fileID: 2020119346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34368,7 +34683,7 @@ GameObject:
   - component: {fileID: 2059187963}
   - component: {fileID: 2059187962}
   - component: {fileID: 2059187961}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34538,6 +34853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -34578,6 +34897,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34600,7 +34927,7 @@ GameObject:
   - component: {fileID: 2067578806}
   - component: {fileID: 2067578805}
   - component: {fileID: 2067578804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34978,6 +35305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -35018,6 +35349,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35040,7 +35379,7 @@ GameObject:
   - component: {fileID: 2093887196}
   - component: {fileID: 2093887195}
   - component: {fileID: 2093887194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35148,7 +35487,7 @@ GameObject:
   - component: {fileID: 2094969750}
   - component: {fileID: 2094969749}
   - component: {fileID: 2094969748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35296,7 +35635,7 @@ GameObject:
   - component: {fileID: 2102932873}
   - component: {fileID: 2102932872}
   - component: {fileID: 2102932871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35524,6 +35863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -35563,6 +35906,14 @@ PrefabInstance:
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35723,6 +36074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarDoor (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 27702522833896899, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 804380581932949369, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -35763,6 +36118,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6373293919922492155, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280938451246596673, guid: 82efe2c5862514f46b0f3159853280ae, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35783,7 +36146,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 465694728856913840, guid: 1a5ef8d64081cbd4db49d71ab9dd0e52, type: 3}
       propertyPath: m_Name
-      value: Cells
+      value: Cells (150)
       objectReference: {fileID: 0}
     - target: {fileID: 855707157496613477, guid: 1a5ef8d64081cbd4db49d71ab9dd0e52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37492,6 +37855,10 @@ PrefabInstance:
       propertyPath: cameraAnim
       value: 
       objectReference: {fileID: 1210057440}
+    - target: {fileID: 7713894833427862370, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}
+      propertyPath: layers.m_Bits
+      value: 8449
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5135562665015338662, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}
     - {fileID: 8883452933401304369, guid: c7777c5e24d160942a37c600c4cd0ae7, type: 3}

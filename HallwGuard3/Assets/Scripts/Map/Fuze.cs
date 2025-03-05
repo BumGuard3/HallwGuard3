@@ -21,7 +21,11 @@ public class Fuze : MonoBehaviour
             fuzeCollect.AddListener(lightObj.GetComponent<Lights>().ShutOff);
         }
 
+        GameObject[] openDoors = GameObject.FindGameObjectsWithTag("DoorAlwaysOpen");
+        foreach (GameObject doors in openDoors)
+        {
         fuzeCollect.AddListener(GameObject.FindGameObjectWithTag("DoorAlwaysOpen").GetComponent<DoorOpen>().DoorAlwaysOpen);
+        }
     }
 
     private void OnTriggerEnter(Collider collision)
