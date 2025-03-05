@@ -9,12 +9,6 @@ public class Fuze : MonoBehaviour
 
     void Start()
     {
-        GameObject[] randomDoors = GameObject.FindGameObjectsWithTag("DoorRandom");
-        foreach (GameObject door in randomDoors)
-        {
-            fuzeCollect.AddListener(door.GetComponent<DoorRandom>().DoorRandomOpen);
-        }
-
         GameObject[] lights = GameObject.FindGameObjectsWithTag("CeilingLights");
         foreach (GameObject lightObj in lights)
         {
@@ -28,6 +22,7 @@ public class Fuze : MonoBehaviour
         }
 
         fuzeCollect.AddListener(GameObject.FindGameObjectWithTag("DoorAlwaysClose").GetComponent<DoorClose>().DoorAlwaysClose);
+        fuzeCollect.AddListener(GameObject.FindGameObjectWithTag("DoorRandom").GetComponent<DoorRandom>().DoorRandomOpen);
     }
 
     private void OnTriggerEnter(Collider collision)
