@@ -4,6 +4,6 @@ public class DoorOpen : MonoBehaviour
 {
     public void DoorAlwaysOpen()
     {
-        Destroy(gameObject);
+        transform.position -= transform.up * 3f;
     }
 }
