@@ -5,11 +5,11 @@ public class DoorRandom : MonoBehaviour
     
     public void DoorRandomOpen()
     {
-        int randomRoll = Random.Range(0, 2);
+        int randomRoll = Random.Range(0, 4);
 
         if (randomRoll == 0 )
         {
-            Destroy(gameObject);
+            transform.position -= transform.right * 2.6f;
         }
     }
 }

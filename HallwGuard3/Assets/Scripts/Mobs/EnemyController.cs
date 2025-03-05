@@ -13,15 +13,15 @@ public class EnemyController : MonoBehaviour
     public float sightRange = 12f;
     public bool inSightRange;
     
-    public float normalSpeed = 3.5f;
-    public float increasedSpeed = 10f;
+    public float normalSpeed = 10f;
+    public float increasedSpeed = 25f;
 
     private Vector3 lastKnownPosition;
     private bool isChasing = false;
 
     private void Awake()
     {
-        player = GameObject.Find("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         agent = GetComponent<NavMeshAgent>();
     }
 
