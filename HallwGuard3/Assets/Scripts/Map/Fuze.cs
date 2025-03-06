@@ -23,6 +23,7 @@ public class Fuze : MonoBehaviour
 
         fuzeCollect.AddListener(GameObject.FindGameObjectWithTag("DoorAlwaysClose").GetComponent<DoorClose>().DoorAlwaysClose);
         fuzeCollect.AddListener(GameObject.FindGameObjectWithTag("DoorRandom").GetComponent<DoorRandom>().DoorRandomOpen);
+        fuzeCollect.AddListener(GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>().FuzeSFX);
     }
 
     private void OnTriggerEnter(Collider collision)
