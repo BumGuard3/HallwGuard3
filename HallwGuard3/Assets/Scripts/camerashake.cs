@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraShake : MonoBehaviour
 {
     public float shakeDuration = 1f;
-    public float shakeMagnitude = 0.5f; // Increased magnitude for better visibility
+    public float shakeMagnitude = 0.5f;
     private Vector3 originalPos;
 
     void Start()
@@ -22,9 +22,6 @@ public class CameraShake : MonoBehaviour
             float shakeX = Random.Range(-shakeMagnitude, shakeMagnitude);
             float shakeY = Random.Range(-shakeMagnitude, shakeMagnitude);
             transform.position = originalPos + new Vector3(shakeX, shakeY, 0f);
-
-            // Log to see if the shake effect is occurring
-            Debug.Log("Camera Position: " + transform.position);
 
             elapsedTime += Time.deltaTime;
 

@@ -26,7 +26,6 @@ public class CameraController : MonoBehaviour
         {
             if (PlayerInFieldOfView(horizontalDistanceToPlayer, verticalDistanceToPlayer))
             {
-                Debug.Log("Player Found");
                 lastKnownPosition = player.position;
                 enemyController.SetTarget(lastKnownPosition);
             }
