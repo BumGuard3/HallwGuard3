@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -30,6 +31,17 @@ public class PlayerMovement : MonoBehaviour
         Vector3 m = transform.right * move.x + transform.forward * move.y;
         controller.Move(m * Time.deltaTime * speed);
         transform.position = new Vector3(transform.position.x, lockedY, transform.position.z);
+    }
+
+    private void OnTriggerEnter(Collider whatHit)
+    {
+        if (whatHit.tag == "RealExit")
+        {
+            SceneManager.LoadScene("win");
+        } else if (whatHit.tag == "Guard")
+        {
+            SceneManager.LoadScene("lose");
+        }
     }
 
     void OnEnable()

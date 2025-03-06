@@ -11,6 +11,7 @@ TagManager:
   - CeilingLights
   - DoorAlwaysClose
   - AudioManager
+  - RealExit
   layers:
   - Default
   - TransparentFX

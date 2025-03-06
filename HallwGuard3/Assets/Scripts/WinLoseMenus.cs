@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class WinLoseMenus : MonoBehaviour
 {
+
+    [Header("First Selected Objects")]
+    [SerializeField] private GameObject _winloseFirst;
+
     public void ResetLevel()
     {
         SceneManager.LoadScene("Level");
