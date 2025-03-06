@@ -15,6 +15,7 @@ public class Key : MonoBehaviour
             keyCollect.AddListener(Trigger.GetComponent<DoorTrigger>().SkeletonKeyPickedUp);
         }
 
+        keyCollect.AddListener(GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>().KeysSFX);
     }
 
     private void OnTriggerEnter(Collider collision)
