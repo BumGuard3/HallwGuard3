@@ -14,7 +14,7 @@ public class EnemyController : MonoBehaviour
     public bool inSightRange;
     
     public float normalSpeed = 10f;
-    public float increasedSpeed = 25f;
+    public float increasedSpeed = 20f;
 
     private Vector3 lastKnownPosition;
     private bool isChasing = false;
@@ -35,25 +35,38 @@ public class EnemyController : MonoBehaviour
             {
                 Patrolling();
             }
+            else
+            {
+                agent.SetDestination(lastKnownPosition);
+
+                if (Vector3.Distance(transform.position, lastKnownPosition) < 1f)
+                {
+                    isChasing = false;
+                    agent.speed = normalSpeed;
+                    PatrollingFromLastKnownPosition();
+                }
+            }
         }
 
         if (inSightRange)
         {
-            Chase();
+            if (!isChasing)
+            {
+                SetTarget(player.position);
+            }
+            else
+            {
+                Chase();
+            }
         }
 
-        if (isChasing)
+        if (isChasing && Vector3.Distance(transform.position, lastKnownPosition) > 1f)
         {
-            
-            agent.SetDestination(lastKnownPosition);
-
-            if (Vector3.Distance(transform.position, lastKnownPosition) < 1f)
+            if (inSightRange)
             {
-                isChasing = false;
                 agent.speed = normalSpeed;
-                PatrollingFromLastKnownPosition();
+                SetTarget(player.position);
             }
-            
         }
     }
 
