@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
         if (whatHit.tag == "RealExit")
         {
             SceneManager.LoadScene("win");
-        } else if (whatHit.tag == "Guard")
+        } else if (whatHit.tag == "Enemy")
         {
             SceneManager.LoadScene("lose");
         }
