@@ -56,24 +56,4 @@ public class CameraController : MonoBehaviour
 
         return false;
     }
-
-    // Visualize the detection range and FOV in the scene view for debugging
-    private void OnDrawGizmos()
-    {
-        // Detection range sphere
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(transform.position, detectionRange);
-
-        // Draw FOV cone for horizontal detection
-        Gizmos.color = Color.yellow;
-        Vector3 forward = transform.forward * detectionRange;
-        Gizmos.DrawLine(transform.position, transform.position + forward);
-
-        // Draw left & right cone lines for FOV
-        float halfAngle = fieldOfViewAngle / 2f;
-        Quaternion leftRotation = Quaternion.Euler(0, -halfAngle, 0);
-        Quaternion rightRotation = Quaternion.Euler(0, halfAngle, 0);
-        Gizmos.DrawLine(transform.position, transform.position + leftRotation * forward);
-        Gizmos.DrawLine(transform.position, transform.position + rightRotation * forward);
-    }
 }
